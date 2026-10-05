@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitarras & Bajos - Yamaha Latinoamérica</title>
+    <!-- Mismos estilos CSS de tu proyecto -->
+    <link rel="stylesheet" href="estilo.css">
+    <!-- FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body style="background-color: #0b0b10; color: #ffffff; font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 0;">
+
+    <!-- MISMO ENCABEZADO (HEADER) -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo">
+                <img src="yamahalogo.jpg" alt="Yamaha Logo" class="logo-img">
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="index.html#nosotros">Nosotros</a></li>
+                    <li><a href="index.html#productos">Productos</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="index.html#contacto" class="btn btn-sm btn-primary">Únete a la Red</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menú">
+                    <img src="menu-icon.png" alt="Menú" class="menu-icon-img">
+                </button> 
+            </div>
+        </div>
+    </header>
+
+   <!-- CONTENIDO DEL CATÁLOGO DE GUITARRAS -->
+    <main class="container" style="max-width: 1200px; margin: 0 auto; padding: 120px 20px 60px 20px;">
+        
+        <div class="section-header" style="text-align: center; margin-bottom: 40px;">
+            <span class="section-tag" style="color: #ff3344; font-weight: bold; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px;">CATÁLOGO EXCLUSIVO</span>
+            <h1 style="font-size: 2.5rem; margin-top: 10px;">Guitarras & Bajos Acústicos</h1>
+            <p style="color: #a0a0b0; max-width: 600px; margin: 15px auto 0 auto;">Artesanía de precisión con maderas seleccionadas para un sonido vibrante e inigualable.</p>
+        </div>
+
+        <!-- REJILLA DE PRODUCTOS (GUITARRAS Y BAJOS) -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px;">
+            
+            <!-- Producto 1 -->
+            <div style="background: #1a1a24; border-radius: 16px; border: 1px solid #2a2a38; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s ease;">
+                <div style="height: 220px; overflow: hidden; background: #121218;">
+                    <img src="gibsonroja.jpg" alt="Yamaha FG800" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
+                    <span style="color: #6b00ad; font-size: 0.8rem; font-weight: bold;">SERIE STUDIO</span>
+                    <h3 style="margin: 8px 0 12px 0; font-size: 1.3rem;">Gibson Les Paul Studio Wine Red</h3>
+                    <p style="color: #a0a0b0; font-size: 0.9rem; line-height: 1.5; flex-grow: 1;">Guitarra eléctrica de caoba con tapa de arce, pastillas humbucker con alternado push-pull y acabado satinado en rojo vino.</p>
+                    <div style="margin-top: 20px; display: flex; justify-content: space-between; align-items: center;">
+                        <span style="font-size: 1.2rem; font-weight: bold; color: #fff;">$1,599.00</span>
+                        <a href="#" style="background: #6b00ad; color: #fff; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 0.85rem; font-weight: bold;">Ver Detalle</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div style="background: #1a1a24; border-radius: 16px; border: 1px solid #2a2a38; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s ease;">
+                <div style="height: 220px; overflow: hidden; background: #121218;">
+                    <img src="bajoacustico.png" alt="Yamaha APX600" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
+                    <span style="color: #6b00ad; font-size: 0.8rem; font-weight: bold;">CALIFORNIA SERIES</span>
+                    <h3 style="margin: 8px 0 12px 0; font-size: 1.3rem;">Fender Kingman Bass – Shaded Edge Burst</h3>
+                    <p style="color: #a0a0b0; font-size: 0.9rem; line-height: 1.5; flex-grow: 1;">Bajo electroacústico de escala corta con tapa de abeto macizo, preamplificador Fishman y acabado en degradado Shaded Edge Burst.</p>
+                    <div style="margin-top: 20px; display: flex; justify-content: space-between; align-items: center;">
+                        <span style="font-size: 1.2rem; font-weight: bold; color: #fff;">$599.99</span>
+                        <a href="#" style="background: #6b00ad; color: #fff; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 0.85rem; font-weight: bold;">Ver Detalle</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div style="background: #1a1a24; border-radius: 16px; border: 1px solid #2a2a38; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s ease;">
+                <div style="height: 220px; overflow: hidden; background: #121218;">
+                    <img src="paulbajo.jpg" alt="Yamaha TRBX304" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
+                    <span style="color: #6b00ad; font-size: 0.8rem; font-weight: bold;">VINTAGE / VIOLIN BASS SERIESX</span>
+                    <h3 style="margin: 8px 0 12px 0; font-size: 1.3rem;">Höfner 500/1 Violin Bass (Beatle Bass)</h3>
+                    <p style="color: #a0a0b0; font-size: 0.9rem; line-height: 1.5; flex-grow: 1;">Bajo eléctrico semihueco de escala corta con icónico cuerpo en forma de violín y tono cálido estilo clásico The Beatles.</p>
+                    <div style="margin-top: 20px; display: flex; justify-content: space-between; align-items: center;">
+                        <span style="font-size: 1.2rem; font-weight: bold; color: #fff;">$3,299.00</span>
+                        <a href="#" style="background: #6b00ad; color: #fff; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 0.85rem; font-weight: bold;">Ver Detalle</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 4 (NUEVO AGREGADO) -->
+            <div style="background: #1a1a24; border-radius: 16px; border: 1px solid #2a2a38; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s ease;">
+                <div style="height: 220px; overflow: hidden; background: #121218;">
+                    <img src="mansonnegra.jpg" alt="Yamaha BB234" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1;">
+                    <span style="color: #6b00ad; font-size: 0.8rem; font-weight: bold;">META SERIES (MANSON/MATT BELLAMY SIGNATURE)</span>
+                    <h3 style="margin: 8px 0 12px 0; font-size: 1.3rem;">Cort Manson Meta MBM-2H Sustainiac (SBLK - Satin Black)</h3>
+                    <p style="color: #a0a0b0; font-size: 0.9rem; line-height: 1.5; flex-grow: 1;">Guitarra de firma con cuerpo de tilo, sistema Sustainiac para sostenido infinito, pastilla humbucker Manson, y acabado negro mate.</p>
+                    <div style="margin-top: 20px; display: flex; justify-content: space-between; align-items: center;">
+                        <span style="font-size: 1.2rem; font-weight: bold; color: #fff;">$999.00</span>
+                        <a href="#" style="background: #6b00ad; color: #fff; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 0.85rem; font-weight: bold;">Ver Detalle</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Botón para volver a la página principal -->
+        <div style="text-align: center; margin-top: 60px;">
+            <a href="index.html#productos" style="display: inline-block; padding: 12px 28px; border: 1px solid #4a4a5a; color: #ffffff; text-decoration: none; border-radius: 30px; font-weight: bold; transition: all 0.3s ease;">
+                <i class="fa-solid fa-arrow-left" style="margin-right: 8px;"></i> Volver a la Página Principal
+            </a>
+        </div>
+    </main>
+
+    <!-- PIE DE PÁGINA (FOOTER IDÉNTICO) -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col footer-brand-col">
+                <div class="footer-brand">
+                    <span class="logo-text">YAMAHA</span>
+                    <span class="region-tag">LATINOAMÉRICA</span>
+                </div>
+                <p class="footer-desc">Impulsando la pasión, la innovación y la cultura musical en toda América Latina desde hace más de 50 años.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="index.html#nosotros">Sobre Nosotros</a></li>
+                    <li><a href="index.html#productos">Catálogo de Productos</a></li>
+                    <li><a href="index.html#blog">Impacto Social</a></li>
+                    <li><a href="index.html#contacto">Contacto & Soporte</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Productos</h4>
+                <ul>
+                    <li><a href="index.html#productos">Pianos & Teclados</a></li>
+                    <li><a href="index.html#productos">Guitarras & Bajos</a></li>
+                    <li><a href="index.html#productos">Audio Profesional</a></li>
+                    <li><a href="index.html#productos">Equipos DJ & Home</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-contact-col">
+                <h4>Atención al Cliente</h4>
+                <ul class="contact-list">
+                    <li><i class="fa-solid fa-envelope"></i><span>contacto@yamaha-latinamerica.com</span></li>
+                    <li><i class="fa-solid fa-phone"></i><span>+1 (800) 926-2421</span></li>
+                    <li><i class="fa-solid fa-location-dot"></i><span>Oficinas Regionales: América Latina</span></li>
+                    <li><i class="fa-solid fa-clock"></i><span>Lun - Vie: 8:00 AM - 5:00 PM</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p class="footer-copy">&copy; 2026 Yamaha Corporation. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Términos de Uso</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
